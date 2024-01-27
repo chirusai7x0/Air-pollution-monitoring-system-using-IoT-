@@ -21,6 +21,7 @@ lcd.clear();
 lcd.setCursor(0,0);
 lcd.print("Air Quality: ");
 lcd.print(sensorValue);
+  
 if (sensorValue<=500)
 {
 Serial.print("Fresh Air");
