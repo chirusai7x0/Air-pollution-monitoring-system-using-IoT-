@@ -43,6 +43,7 @@ Serial.print("\r\n");
 lcd.setCursor(0,1);
 lcd.print("Very Poor Air");
 }
+  
 if (sensorValue > 650)  {
 digitalWrite(pin8,HIGH);
 }
